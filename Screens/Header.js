@@ -25,9 +25,7 @@ function Header() {
                 </View>
             </View>
 
-            <View style={style.bannerView}>
-                <Image source={images?.bannerView} style={style.bannersale} />
-            </View>
+
         </>
     )
 }

@@ -182,7 +182,7 @@ const style = StyleSheet.create({
     storyContainer: {
         borderWidth: 1,
         width: width / 3,
-        height: width / 2.2,
+        height: width / 2,
         margin: 4,
         borderRadius: 6,
         borderColor: '#c2c4c4',
@@ -207,6 +207,86 @@ const style = StyleSheet.create({
         margin: 8,
 
     },
+
+    //DiscountView//
+    lootView: {
+        height: width / 2,
+        width: '100%',
+    },
+    discountcontainer: {
+        height: width / 1.3,
+        marginVertical: 10,
+        backgroundColor: '#2874f0',
+    },
+    dealtext: {
+        fontSize: 16,
+        color: 'white',
+        paddingVertical: 25,
+        marginHorizontal: 8,
+    },
+    Viewtext: {
+        height: 50,
+        width: 100,
+        marginTop: 21,
+        alignItems: "center",
+    },
+    Viewbtn: {
+        backgroundColor: "white",
+        padding: 6,
+        color: "grey",
+        borderRadius: 5
+    },
+
+    disContainer: {
+        width: '45%',
+        height: width / 2.4,
+        marginVertical: 10,
+        marginHorizontal: 8,
+
+    },
+    disImage: {
+        height: width / 2.7,
+        width: width / 2.2,
+        resizeMode: 'contain',
+        justifyContent: 'center',
+        backgroundColor: 'white',
+    },
+
+    distext: {
+        fontSize: 12,
+        width: width / 2.2,
+        color: 'black',
+        textAlign: 'center',
+        backgroundColor: 'white',
+        padding: 4,
+    },
+    offertext: {
+        fontSize: 12,
+        width: width / 2.2,
+        color: '#388e3c',
+        textAlign: 'center',
+        backgroundColor: 'white',
+        paddingBottom: 10,
+
+    },
+
+    //Footer style//
+    IconsView: {
+        alignItems: "center",
+        marginHorizontal: 8,
+
+    },
+    Icons: {
+        height: 25,
+        width: 25,
+        marginHorizontal: 5,
+    },
+    FooterIcons: {
+        flexDirection: "row",
+        justifyContent: "space-between",
+        paddingBottom: 5
+    },
+
 })
 
 

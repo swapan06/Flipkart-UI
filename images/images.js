@@ -9,5 +9,13 @@ export const images = {
     mobile: require('./realme.jpeg'),
     mobile1: require('./samsung.jpg'),
     laptop: require('./laptop.jpeg'),
+    loot: require('./Loot.webp'),
+    shop: require('./shop.png'),
+    supercoin: require('./coin1.png'),
+    home: require('./home.png'),
+    credit: require('./coin.png'),
+    gamezone: require('./game.png'),
+
+
 
 }

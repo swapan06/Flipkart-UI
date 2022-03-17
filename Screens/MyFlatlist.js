@@ -4,6 +4,7 @@ import { banner } from '../Banner'
 import style from '../style'
 
 function MyFlatlist() {
+
     return (<FlatList
         horizontal={true}
         data={banner}
