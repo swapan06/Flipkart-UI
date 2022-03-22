@@ -11,7 +11,7 @@ function GridView() {
             <FlatList
                 data={Gridimages}
                 renderItem={(element) => {
-                    return (<View>
+                    return (<View >
 
                         <Image source={element.item.uri} style={style.gridView} />
                         <Text style={style.gridtext}>{element.item.title}</Text>

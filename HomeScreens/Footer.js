@@ -9,22 +9,22 @@ function Footer() {
             <View style={style.FooterIcons}>
                 <View style={style.IconsView}>
                     <TouchableOpacity><Image source={images?.shop} style={style.Icons} /></TouchableOpacity>
-                    <Text>Shop</Text>
+                    <Text style={style.IconsText}>Shop</Text>
                 </View>
                 <View style={style.IconsView}>
                     <TouchableOpacity><Image source={images?.supercoin} style={style.Icons} /></TouchableOpacity>
-                    <Text>SuperCoin</Text>
+                    <Text style={style.IconsText}>SuperCoin</Text>
                 </View>
                 <View style={style.IconsView}>
                     <TouchableOpacity><Image source={images?.home} style={style.Icons} /></TouchableOpacity>
                 </View>
                 <View style={style.IconsView}>
                     <TouchableOpacity><Image source={images?.credit} style={style.Icons} /></TouchableOpacity>
-                    <Text>Credit</Text>
+                    <Text style={style.IconsText}>Credit</Text>
                 </View>
                 <View style={style.IconsView}>
                     <TouchableOpacity><Image source={images?.gamezone} style={style.Icons} /></TouchableOpacity>
-                    <Text>GameZone</Text>
+                    <Text style={style.IconsText}>GameZone</Text>
                 </View>
             </View>
         </>

@@ -15,7 +15,17 @@ export const images = {
     home: require('./home.png'),
     credit: require('./coin.png'),
     gamezone: require('./game.png'),
-
+    dry: require('./Dry.jpg'),
+    sweets: require('./sweets.jpg'),
+    swings: require('./swings.jpeg'),
+    coin: require('./supercoin.png'),
+    next: require('./next.png'),
+    nextblue: require('./nextb.png'),
+    doll: require('./doll.jpeg'),
+    movie1: require('./movie1.jpg'),
+    movie2: require('./movie2.jpg'),
+    movie3: require('./movie3.webp'),
+    movie4: require('./movie4.jpg'),
 
 
 }

@@ -20,8 +20,7 @@ function Header() {
                     </View>
                 </View>
                 <View style={style.searchbar}>
-
-                    <TextInput style={style.textInput} > <Image source={images?.searchIcon} style={style.icon} />{"Search for Products and Brands"} </TextInput>
+                    <TextInput style={style.textInput} ><Image source={images?.searchIcon} style={style.icon} />Search for Products and Brands </TextInput>
                 </View>
             </View>
 

@@ -4,6 +4,7 @@ const { width, height } = Dimensions.get('window');
 const style = StyleSheet.create({
     //Header style//
     container: {
+        backgroundColor: 'white',
     },
     header: {
         paddingHorizontal: 10,
@@ -35,6 +36,13 @@ const style = StyleSheet.create({
         width: '95%',
         height: 40,
         color: 'black',
+    },
+    searchIcon: {
+        flex: 0.5,
+        flexDirection: 'row',
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#fff',
     },
 
     //banner style//
@@ -195,8 +203,6 @@ const style = StyleSheet.create({
         resizeMode: 'contain',
         justifyContent: 'center',
         marginVertical: 5,
-
-
     },
 
     storytext: {
@@ -240,7 +246,7 @@ const style = StyleSheet.create({
     disContainer: {
         width: '45%',
         height: width / 2.4,
-        marginVertical: 10,
+        marginVertical: 2,
         marginHorizontal: 8,
 
     },
@@ -286,6 +292,276 @@ const style = StyleSheet.create({
         justifyContent: "space-between",
         paddingBottom: 5
     },
+    //Footer Text//
+    IconsText: {
+        color: 'black',
+        fontSize: 12,
+    },
+    //PopularView//
+    PopularText: {
+        fontWeight: 'bold',
+        fontSize: 16,
+        color: 'black',
+        backgroundColor: '#f7f7f7',
+        padding: 12,
+
+    },
+    cardContainer1: {
+        width: '30%',
+        height: width / 3.4,
+        margin: 6,
+        borderRadius: 6,
+
+    },
+    cardImage1: {
+        height: width / 3.3,
+        width: '100%',
+        resizeMode: 'contain',
+        justifyContent: 'center',
+        borderRadius: 6,
+    },
+    textv: {
+        fontSize: 12,
+        color: 'black',
+        textAlign: 'center',
+        marginHorizontal: 2,
+    },
+    text1: {
+        fontSize: 12,
+        fontWeight: 'bold',
+        color: 'black',
+        textAlign: 'center',
+        marginHorizontal: 2,
+    },
+
+
+    //////SupercoinScreen css/////////
+
+    coinheader: {
+        paddingHorizontal: 10,
+        paddingVertical: 10,
+        width: '100%',
+        flexDirection: 'row',
+        backgroundColor: 'white',
+        justifyContent: 'space-between'
+    },
+    coinheadermenu: {
+        height: 30,
+        width: 20,
+    },
+    cointext: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        marginLeft: 8,
+        color: 'black',
+    },
+    coinbtn: {
+        backgroundColor: "white",
+        padding: 6,
+        color: "grey",
+        borderRadius: 5
+    },
+    coinimg: {
+        height: 20,
+        width: 20,
+    },
+    coinview: {
+        height: 30,
+        width: 50,
+        alignItems: "center",
+        borderWidth: 1,
+        borderRadius: 30,
+        borderColor: '#e8e7e6',
+    },
+    //SavingView//
+    saving: {
+        marginHorizontal: 16,
+        flexDirection: "row",
+        backgroundColor: '#d6f5d5',
+        alignItems: "center",
+        justifyContent: "space-between",
+        borderRadius: 3,
+    },
+    savingInput: {
+        padding: 8,
+        color: 'black',
+    },
+    nextimg: {
+        height: 20,
+        width: 20,
+        marginRight: 10
+    },
+    //TabNavigation//
+    tabtext1: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: '#2874f0',
+        padding: 4,
+    },
+    tabtext: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        color: 'black',
+    },
+    Divider: {
+        color: '#d9dadb',
+
+        //IconFlatlist//
+    },
+    iconlist: {
+        height: 40,
+        width: 40,
+        borderRadius: 50,
+        justifyContent: 'space-between',
+        alignItems: 'center',
+        marginHorizontal: 20,
+        marginTop: 10,
+    },
+    icontext: {
+        fontSize: 10,
+        color: 'black',
+        marginTop: 4,
+        justifyContent: 'space-between',
+        marginHorizontal: 20,
+        textAlign: 'center',
+    },
+    icontext1: {
+        fontSize: 10,
+        color: 'black',
+        marginHorizontal: 20,
+        textAlign: 'center',
+
+    },
+    //BannerList//
+    CoinView: {
+        marginHorizontal: 4,
+        marginVertical: 12,
+    },
+    coinlist: {
+        height: width / 2,
+        width: width / 1.1,
+        borderRadius: 8,
+        padding: 6,
+    },
+    //SuperFlash//
+    playtext: {
+        color: 'black',
+        fontSize: 14,
+        fontWeight: 'bold',
+    },
+    coin2img: {
+        height: 11,
+        width: 11,
+    },
+    flashtext: {
+        color: 'black',
+        fontSize: 12,
+        fontWeight: 'bold',
+        marginLeft: 5,
+        backgroundColor: '#ffd9c2',
+        padding: 3,
+        borderRadius: 4,
+    },
+    coinheader2: {
+
+        paddingHorizontal: 10,
+        width: '100%',
+        flexDirection: 'row',
+        backgroundColor: 'white',
+        justifyContent: 'space-between'
+
+    },
+    Dailytext: {
+        fontSize: 11,
+
+    },
+    nextview: {
+        alignItems: "center",
+        position: "absolute",
+        right: 10,
+        top: 8,
+    },
+    nextimg1: {
+        height: 25,
+        width: 32,
+    },
+    //Cards//
+    bgcard: {
+        width: '23%',
+        height: width / 2.4,
+        marginVertical: 10,
+        marginHorizontal: 4,
+        borderRadius: 4,
+        backgroundColor: '#dbc469',
+    },
+    cardImage2: {
+        height: width / 2.7,
+        width: '80%',
+        resizeMode: 'contain',
+        justifyContent: 'center',
+        borderRadius: 4,
+        marginHorizontal: 8,
+        marginVertical: 8
+
+    },
+    bgcard1: {
+        width: '23%',
+        height: width / 2.4,
+        marginVertical: 10,
+        marginHorizontal: 4,
+        borderRadius: 4,
+        backgroundColor: '#683975',
+    },
+    bgcard2: {
+        width: '23%',
+        height: width / 2.4,
+        marginVertical: 10,
+        marginHorizontal: 4,
+        borderRadius: 4,
+        backgroundColor: '#3c4729',
+    },
+    nextview2: {
+        alignItems: "center",
+        position: "absolute",
+        right: 10,
+    },
+    //EarnView and RewardsView//
+    earnContainer: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 1.6,
+        margin: 8,
+        borderRadius: 4,
+        borderColor: '#c2c4c4',
+    },
+    EarnImage: {
+        height: width / 2.25,
+        width: '100%',
+        resizeMode: 'contain',
+        borderRadius: 4,
+    },
+    earntext: {
+        fontsize: 12,
+        fontWeight: 'bold',
+        color: 'black',
+        marginHorizontal: 4,
+    },
+    greentext: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        color: '#388e3c',
+        marginHorizontal: 4
+    },
+    dailytext: {
+        marginHorizontal: 4,
+        fontSize: 11,
+    },
+
+
+
+
+
+
 
 })
 
