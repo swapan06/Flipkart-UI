@@ -9,18 +9,17 @@ export const banner = [
     },
     {
         key: "3",
-        uri: require('./images/banner_3.jpg')
-    },
-    {
-        key: "4",
         uri: require('./images/banner_4.jpg')
     },
     {
-        key: "5",
+        key: "4",
         uri: require('./images/banner_5.jpg')
     },
     {
-        key: "6",
+        key: "5",
         uri: require('./images/banner_6.jpg')
     },
+
+
+
 ]

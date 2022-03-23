@@ -332,6 +332,7 @@ const style = StyleSheet.create({
         color: 'black',
         textAlign: 'center',
         marginHorizontal: 2,
+
     },
 
 
@@ -555,6 +556,112 @@ const style = StyleSheet.create({
     dailytext: {
         marginHorizontal: 4,
         fontSize: 11,
+    },
+
+    //GameZoneScreen//
+
+    //Header//
+    gameheader: {
+        paddingHorizontal: 10,
+        paddingVertical: 10,
+        width: '100%',
+        flexDirection: 'row',
+        backgroundColor: 'white',
+        justifyContent: 'space-between'
+    },
+    gameheadermenu: {
+        height: 30,
+        width: 20,
+    },
+    gametext: {
+        fontSize: 16,
+        fontWeight: 'bold',
+        marginLeft: 8,
+        color: 'black',
+    },
+    gamebtn: {
+        backgroundColor: "white",
+        padding: 6,
+        color: "grey",
+        borderRadius: 5
+    },
+    gameimg: {
+        height: 20,
+        width: 20,
+    },
+    gameview: {
+        height: 30,
+        width: 50,
+        alignItems: "center",
+        borderWidth: 1,
+        borderRadius: 30,
+        borderColor: '#e8e7e6',
+        backgroundColor: '#ededed'
+    },
+
+    //GameSlider//
+    gameContainer: {
+        borderWidth: 1,
+        width: width / 1.1,
+        height: width / 1.6,
+        margin: 15,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+        backgroundColor: '#0c105e',
+        flex: 1,
+    },
+    gameImage: {
+        height: width / 2.2,
+        width: width / 1.1,
+        resizeMode: 'cover',
+        justifyContent: 'center',
+        borderRadius: 8,
+    },
+    text: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        color: 'white',
+        textAlign: 'left',
+        marginHorizontal: 6,
+        marginTop: 8,
+
+    },
+    gametext1: {
+        fontSize: 12,
+        color: 'white',
+        textAlign: 'left',
+        marginHorizontal: 6,
+
+    },
+
+    getContainer: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 3.9,
+        margin: 15,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+
+        flex: 1,
+    },
+    gettext: {
+        fontSize: 14,
+        fontWeight: 'bold',
+        color: 'black',
+        textAlign: 'left',
+        marginHorizontal: 8,
+        marginVertical: 12,
+    },
+    gemimg: {
+        height: 12,
+        width: 12,
+    },
+    gettext1: {
+        fontSize: 12,
+        color: 'grey',
+        textAlign: 'left',
+        marginHorizontal: 8,
+        marginVertical: 12,
     },
 
 

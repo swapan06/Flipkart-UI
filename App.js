@@ -18,28 +18,35 @@ import {
   View,
   Image,
 } from 'react-native';
+import style from './style';
+import { NavigationContainer } from '@react-navigation/native'
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs';
+
+
+
+/*import Footer from './HomeScreens/Footer';
 import { images } from './images/images';
 import style from './style';
-{/*import banner from './Banner';
+import banner from './Banner';
 import Gridimages from './Gridimages';
 import { DATA } from './banner1';
 import { scrolldata } from './Storieslist';
 import { Discountdata } from './Discountlist';
 import { footerdata } from './Footerlist';
-import Header from './HomeScreens/Header';
-import MyFlatlist from './HomeScreens/MyFlatlist';
-import GridView from './HomeScreens/GridView';
-import BannerView from './HomeScreens/BannerView';
-import CardView from './HomeScreens/CardView';
-import CardDeal from './HomeScreens/CardDeal';
-import BannerFlatlist from './HomeScreens/BannerFlatlist';
-import StoriesView from './HomeScreens/StoriesView';
-import DiscountView from './HomeScreens/DiscountView';
-import Footer from './HomeScreens/Footer';
-import Firstbanner from './HomeScreens/Flashbanner';
-import Flashbanner from './HomeScreens/Flashbanner';
-import PopularView from './HomeScreens/PopularView';*/}
-import Header from './SupercoinScreen/Header';
+import Header from './ShopScreens/Header';
+import MyFlatlist from './ShopScreens/MyFlatlist';
+import GridView from './ShopScreens/GridView';
+import BannerView from './ShopScreens/BannerView';
+import CardView from './ShopScreens/CardView';
+import CardDeal from './ShopScreens/CardDeal';
+import BannerFlatlist from './ShopScreens/BannerFlatlist';
+import StoriesView from './ShopScreens/StoriesView';
+import DiscountView from './ShopScreens/DiscountView';
+import Footer from './ShopScreens/Footer';
+import Firstbanner from './ShopScreens/Flashbanner';
+import Flashbanner from './ShopScreens/Flashbanner';
+import PopularView from './ShopScreens/PopularView';*/
+import Header2 from './SupercoinScreen/Header2';
 import SavingView from './SupercoinScreen/SavingView';
 import TabNavigation from './SupercoinScreen/TabNavigation';
 import IconFlatlist from './SupercoinScreen/IconFlatlist';
@@ -48,30 +55,46 @@ import SuperFlash from './SupercoinScreen/SuperFlash';
 import Cards from './SupercoinScreen/Cards';
 import EarnView from './SupercoinScreen/EarnView';
 import RewardsView from './SupercoinScreen/RewardsView';
+import Footer from './ShopScreens/Footer';
+import GameHeader from './GameZoneScreen/GameHeader';
+import GamesSlider from './GameZoneScreen/GamesSlider';
+import { gamedata } from './gamebanner';
+import GetCoinsView from './GameZoneScreen/GetCoinsView';
 
 
 const App = () => {
   return (
+    // <ScrollView>
+    // <GameHeader />
+    //<GamesSlider />
+    //<GetCoinsView />
+    //</ScrollView>
+
+    <NavigationContainer>
+      <Footer />
+    </NavigationContainer>
 
 
-    <SafeAreaView style={style.container}>
+    // <SafeAreaView style={style.container}>
 
-      <View>
-        <StatusBar barStyle='dark-content' backgroundColor={"transparent"}></StatusBar>
-      </View>
-      <ScrollView>
-        <Header />
-        <SavingView />
-        <TabNavigation />
-        <IconFlatlist />
-        <BannerList />
-        <SuperFlash />
-        <Cards />
-        <EarnView />
-        <RewardsView />
-      </ScrollView>
+    //   <View>
+    //     <StatusBar barStyle='dark-content' backgroundColor={"transparent"}></StatusBar>
+    //   </View>
 
-      {/*<Header />
+    //  SuperScreen <ScrollView>
+    //     <Header2 />
+    //     <SavingView />
+    //     <TabNavigation />
+    //     <IconFlatlist />
+    //     <BannerList />
+    //     <SuperFlash />
+    //     <Cards />
+    //     <EarnView />
+    //     <RewardsView />
+    //     <Footer />
+    //   </ScrollView>
+
+    /* <Header />
       <ScrollView>
         <Flashbanner />
         <MyFlatlist />
@@ -84,11 +107,9 @@ const App = () => {
         <DiscountView />
         <PopularView />
       </ScrollView >
-  <Footer />*/}
+  <Footer /> */
 
-    </SafeAreaView>
-
-
+    // </SafeAreaView >
 
   )
 };

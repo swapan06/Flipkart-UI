@@ -26,6 +26,7 @@ export const images = {
     movie2: require('./movie2.jpg'),
     movie3: require('./movie3.webp'),
     movie4: require('./movie4.jpg'),
-
+    gem: require('./gem.png'),
+    dollar: require('./dollar.png')
 
 }
