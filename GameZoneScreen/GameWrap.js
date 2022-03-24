@@ -14,6 +14,7 @@ import style from '../style';
 import GameHeader from './GameHeader';
 import GamesSlider from './GamesSlider';
 import GetCoinsView from './GetCoinsView';
+import GameCards from './GameCards';
 
 
 function GameWrap() {
@@ -27,6 +28,7 @@ function GameWrap() {
                 <GameHeader />
                 <GamesSlider />
                 <GetCoinsView />
+                <GameCards />
 
             </ScrollView >
 

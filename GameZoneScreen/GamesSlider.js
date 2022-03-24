@@ -19,7 +19,7 @@ function GamesSlider() {
                                 <Text style={style.text}>{element.item.price}</Text>
                                 <Text style={style.gametext1}>{element.item.price1}</Text>
                             </View>
-                            <View style={{ position: "absolute", bottom: 31, right: 25, backgroundColor: "white", borderRadius: 20 }}>
+                            <View style={style.btnView}>
                                 <Text style={{ color: "#0c105e", paddingHorizontal: 25, paddingVertical: 5, fontWeight: "bold" }}>Play</Text>
                             </View>
                         </View>

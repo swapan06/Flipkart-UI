@@ -27,6 +27,17 @@ export const images = {
     movie3: require('./movie3.webp'),
     movie4: require('./movie4.jpg'),
     gem: require('./gem.png'),
-    dollar: require('./dollar.png')
+    dollar: require('./dollar.png'),
+    word: require('./word.jpg'),
+    saga: require('./saga.jpg'),
+    leaugue: require('./leaugue.png'),
+    guess: require('./guess.jpg'),
+    forestmatch: require('./forestmatch.webp'),
+    petgame: require('./petgame.png'),
+    candy: require('./candy.png'),
+    gameicon: require('./gameicon.png'),
+    win: require('./win.jpg')
+
+
 
 }

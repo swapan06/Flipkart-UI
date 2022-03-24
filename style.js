@@ -633,6 +633,14 @@ const style = StyleSheet.create({
         marginHorizontal: 6,
 
     },
+    btnView: {
+        position: "absolute",
+        bottom: 31,
+        right: 25,
+        backgroundColor: "white",
+        borderRadius: 20,
+    },
+
 
     getContainer: {
         borderWidth: 1,
@@ -650,7 +658,7 @@ const style = StyleSheet.create({
         color: 'black',
         textAlign: 'left',
         marginHorizontal: 8,
-        marginVertical: 12,
+        marginVertical: 10,
     },
     gemimg: {
         height: 12,
@@ -662,6 +670,103 @@ const style = StyleSheet.create({
         textAlign: 'left',
         marginHorizontal: 8,
         marginVertical: 12,
+    },
+    divide: {
+        width: '75%',
+        marginHorizontal: 10,
+        borderWidth: 5,
+        borderColor: '#e0e0e0',
+        borderRadius: 3
+    },
+    getdolar: {
+        height: 25,
+        width: 25,
+        marginLeft: 10,
+
+    },
+    //GameCard//
+    gamecardContainer: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 1.6,
+        margin: 10,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+        backgroundColor: '#f7a054'
+    },
+    gamecardContainer1: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 1.6,
+        margin: 10,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+        backgroundColor: '#31852e'
+    },
+    gamecardContainer2: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 1.6,
+        margin: 10,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+        backgroundColor: '#bda440'
+    },
+    gamecardContainer3: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 1.6,
+        margin: 10,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+        backgroundColor: '#f0a2fa'
+    },
+    gamecardContainer4: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 1.6,
+        margin: 10,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+        backgroundColor: '#18cded'
+    },
+    gamecardContainer5: {
+        borderWidth: 1,
+        width: '45%',
+        height: width / 1.6,
+        margin: 10,
+        borderRadius: 10,
+        borderColor: '#c2c4c4',
+        backgroundColor: '#8e70b5'
+    },
+
+    gamecardImage: {
+        height: width / 2.25,
+        width: '100%',
+        resizeMode: 'contain',
+        borderRadius: 7,
+    },
+    gamecardtext: {
+        fontsize: 12,
+        fontWeight: 'bold',
+        color: 'white',
+        marginHorizontal: 6,
+        marginTop: 8
+    },
+    greentext: {
+        fontSize: 12,
+        color: 'white',
+        marginHorizontal: 6
+    },
+    dailytext: {
+        marginHorizontal: 4,
+        fontSize: 11,
+    },
+    winimg: {
+        height: width / 2,
+        width: '98%',
+        marginHorizontal: 5
+
     },
 
 
