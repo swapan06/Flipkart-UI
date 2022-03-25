@@ -774,6 +774,23 @@ const style = StyleSheet.create({
         width: width / 1.6,
 
     },
+    //menuscreen//
+    Menuheader: {
+        paddingHorizontal: 20,
+        paddingVertical: 20,
+        width: '100%',
+        flexDirection: 'row',
+        backgroundColor: '#2874f0',
+        justifyContent: 'space-between'
+    },
+    menu: {
+        height: 20,
+        width: 20,
+    },
+    flipicon: {
+        height: 25,
+        width: 25,
+    },
 
 
 

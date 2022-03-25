@@ -37,7 +37,20 @@ export const images = {
     candy: require('./candy.png'),
     gameicon: require('./gameicon.png'),
     win: require('./win.jpg'),
-    notify: require('./notify.jpeg')
+    notify: require('./notify.jpeg'),
+    flipkart: require('./flipkart.jpeg'),
+    grocery: require('./tabgrocery.jpeg'),
+    homeic: require('./homeic.png'),
+    plusic: require('./plusic.png'),
+    catgory: require('./catgory.png'),
+    store: require('./store.png'),
+    language: require('./language.png'),
+    offeric: require('./offers.png'),
+    bellic: require('./bellic.png'),
+    account: require('./account.png'),
+    chat: require('./chat.png'),
+    tabgrocery: require('./tabgrocery.jpeg'),
+    icons: require('./icons.png')
 
 
 

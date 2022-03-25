@@ -10,15 +10,19 @@ function Header({ navigation }) {
             <View style={{ backgroundColor: '#2874f0', }}>
                 <View style={[style.header]}>
                     <View style={{ flex: 0.5, flexDirection: 'row' }}>
-                        <Image source={images?.menuIcon} style={style.headermenu} />
+                        <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
+                            <Image source={images?.menuIcon} style={style.headermenu} />
+                        </TouchableOpacity>
                         <Image source={images?.logoIcon} style={style.logo} />
                     </View>
-
                     <View style={{ flex: 0.5, flexDirection: 'row', justifyContent: 'flex-end' }}>
                         <TouchableOpacity onPress={() => navigation.navigate('Notification')}  >
                             <Image source={images?.bellIcon} style={style.icon} />
                         </TouchableOpacity>
-                        <Image source={images?.cartIcon} style={style.icon} />
+                        <TouchableOpacity onPress={() => navigation.navigate('My Cart')}  >
+                            <Image source={images?.cartIcon} style={style.icon} />
+                        </TouchableOpacity>
+
                     </View>
                 </View>
                 <View style={style.searchbar}>
