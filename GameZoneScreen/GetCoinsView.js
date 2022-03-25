@@ -15,7 +15,7 @@ function GetCoinsView() {
                         <View style={style.btnView}>
                             <Text style={{ color: "#0c105e", paddingHorizontal: 2, paddingVertical: 5, fontWeight: "bold" }}><Image source={images?.dollar} style={style.getdolar}></Image></Text>
                         </View>
-                        <Text style={style.gettext1}><Image source={images?.gem} style={style.gemimg}></Image> Win 1995 moe games to unlock</Text>
+                        <Text style={style.gettext1}><Image source={images?.gem} style={style.gemimg}></Image> Win 1996 more games to unlock</Text>
                     </View>
                 </View>
             </View>

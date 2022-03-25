@@ -32,7 +32,7 @@ import Firstbanner from './Flashbanner';
 import Flashbanner from './Flashbanner';
 import PopularView from './PopularView';
 
-function ShopWrap() {
+function ShopWrap({ navigation }) {
     return (
         <SafeAreaView style={style.container}>
 
@@ -40,7 +40,7 @@ function ShopWrap() {
                 <StatusBar barStyle='dark-content' backgroundColor={"transparent"}></StatusBar>
             </View>
             <ScrollView>
-                <MyHeader />
+                <MyHeader navigation={navigation} />
                 <Flashbanner />
                 <MyFlatlist />
                 <GridView />

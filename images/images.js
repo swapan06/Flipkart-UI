@@ -36,7 +36,8 @@ export const images = {
     petgame: require('./petgame.png'),
     candy: require('./candy.png'),
     gameicon: require('./gameicon.png'),
-    win: require('./win.jpg')
+    win: require('./win.jpg'),
+    notify: require('./notify.jpeg')
 
 
 

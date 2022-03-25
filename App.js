@@ -60,6 +60,7 @@ import GameHeader from './GameZoneScreen/GameHeader';
 import GamesSlider from './GameZoneScreen/GamesSlider';
 import { gamedata } from './gamebanner';
 import GetCoinsView from './GameZoneScreen/GetCoinsView';
+import Try from './ShopScreens/Try';
 
 
 const App = () => {
@@ -71,7 +72,8 @@ const App = () => {
     //</ScrollView>
 
     <NavigationContainer>
-      <Footer />
+      {/* <Footer /> */}
+      <Try />
     </NavigationContainer>
 
 

@@ -8,18 +8,23 @@ function GridView() {
 
     return (
         <>
-            <FlatList
-                data={Gridimages}
-                renderItem={(element) => {
-                    return (<View >
+            <View style={{ alignItems: "center" }}>
+                <FlatList
+                    data={Gridimages}
+                    renderItem={(element) => {
+                        return (
+                            <View style={{ alignItems: "center" }}>
 
-                        <Image source={element.item.uri} style={style.gridView} />
-                        <Text style={style.gridtext}>{element.item.title}</Text>
-                    </View>
-                    )
-                }}
-                numColumns={5}
-            />
+                                <Image source={element.item.uri} style={style.gridView} />
+                                <Text style={style.gridtext}>{element.item.title}</Text>
+                            </View>
+                        )
+                    }}
+                    numColumns={5}
+                />
+
+
+            </View>
         </>
     )
 }

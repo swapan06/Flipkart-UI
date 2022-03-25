@@ -125,8 +125,9 @@ const style = StyleSheet.create({
     text: {
         fontSize: 12,
         fontWeight: 'bold',
-        color: 'black',
+        color: '#000',
         textAlign: 'left',
+        backgroundColor: "#f5f5f",
         marginHorizontal: 2,
 
     },
@@ -139,7 +140,7 @@ const style = StyleSheet.create({
         margin: 10,
         borderRadius: 6,
         borderColor: '#c2c4c4',
-        backgroundColor: '#f5f5f5',
+
         flex: 1,
     },
     dealImage: {
@@ -617,7 +618,7 @@ const style = StyleSheet.create({
         justifyContent: 'center',
         borderRadius: 8,
     },
-    text: {
+    gmtext: {
         fontSize: 14,
         fontWeight: 'bold',
         color: 'white',
@@ -747,7 +748,7 @@ const style = StyleSheet.create({
         borderRadius: 7,
     },
     gamecardtext: {
-        fontsize: 12,
+        fontSize: 12,
         fontWeight: 'bold',
         color: 'white',
         marginHorizontal: 6,
@@ -766,6 +767,11 @@ const style = StyleSheet.create({
         height: width / 2,
         width: '98%',
         marginHorizontal: 5
+
+    },
+    notification: {
+        height: width / 2,
+        width: width / 1.6,
 
     },
 

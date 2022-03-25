@@ -16,7 +16,7 @@ function GamesSlider() {
                         <View style={{ flexDirection: "row" }}>
                             <View style={style.gameContainer}>
                                 <Image source={element.item.uri} style={style.gameImage} />
-                                <Text style={style.text}>{element.item.price}</Text>
+                                <Text style={style.gmtext}>{element.item.price}</Text>
                                 <Text style={style.gametext1}>{element.item.price1}</Text>
                             </View>
                             <View style={style.btnView}>

@@ -9,8 +9,9 @@ import PopularView from './PopularView'
 import ShopWrap from './ShopWrap'
 import CoinScreen from '../SupercoinScreen/CoinScreen'
 import GameWrap from '../GameZoneScreen/GameWrap'
+import Notification from '../ShopScreens/Notification'
 
-function Footer() {
+function Footer({ navigation }) {
     return (
         <>
             <Tab.Navigator>
@@ -26,7 +27,7 @@ function Footer() {
                     headerShown: false, tabBarIcon: ({ focused }) => (
                         <Image source={images?.home} style={{ height: 20, width: 20, tintColor: focused ? '#2874f0' : '#626363' }} />)
                 }} />
-                <Tab.Screen name='Credit' component={CoinScreen} options={{
+                <Tab.Screen name='Credit' component={Notification} options={{
                     headerShown: false, tabBarIcon: ({ focused }) => (
                         <Image source={images?.credit} style={{ height: 20, width: 20, tintColor: focused ? '#2874f0' : '#626363' }} />)
                 }} />

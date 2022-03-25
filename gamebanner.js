@@ -1,7 +1,7 @@
 export const gamedata = [
     {
         key: "1",
-        uri: require('./images/candy.jpg'),
+        uri: require('./images/candybanner.jpg'),
         price: 'Win 5 SuperCoins',
         price1: '32k people played',
     },

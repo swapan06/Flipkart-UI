@@ -13,7 +13,7 @@ export const Gridimages = [
     },
     {
         key: "3",
-        uri: require('./images/appliances.png'),
+        uri: require('./images/Tvs.jpeg'),
         title: 'Tv&AC'
     },
     {
@@ -34,7 +34,7 @@ export const Gridimages = [
     },
     {
         key: "7",
-        uri: require('./images/home.jpeg'),
+        uri: require('./images/Clock.jpeg'),
         title: 'Home'
     },
     {

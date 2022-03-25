@@ -1,10 +1,10 @@
 import React from 'react'
-import { Text, View, Image, TextInput } from 'react-native'
+import { Text, View, Image, TextInput, TouchableOpacity } from 'react-native'
 import style from '../style'
 import { images } from '../images/images'
 
 
-function Header() {
+function Header({ navigation }) {
     return (
         <>
             <View style={{ backgroundColor: '#2874f0', }}>
@@ -15,7 +15,9 @@ function Header() {
                     </View>
 
                     <View style={{ flex: 0.5, flexDirection: 'row', justifyContent: 'flex-end' }}>
-                        <Image source={images?.bellIcon} style={style.icon} />
+                        <TouchableOpacity onPress={() => navigation.navigate('Notification')}  >
+                            <Image source={images?.bellIcon} style={style.icon} />
+                        </TouchableOpacity>
                         <Image source={images?.cartIcon} style={style.icon} />
                     </View>
                 </View>
