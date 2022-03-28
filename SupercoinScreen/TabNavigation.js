@@ -3,23 +3,22 @@ import { Text, View, Image } from 'react-native'
 import style from '../style'
 import { images } from '../images/images'
 import { Divider } from 'react-native-elements/dist/divider/Divider'
-
+import { NavigationContainer } from '@react-navigation/native'
+import { createMaterialTopTabNavigator } from '@react-navigation/material-top-tabs'
+import IconFlatlist from './IconFlatlist'
+const Tab = createMaterialTopTabNavigator()
 
 
 
 function TabNavigation() {
     return (
-        <View >
-            <View style={{ flexDirection: 'row', justifyContent: 'space-evenly', alignItems: 'center', }}>
-                <Text style={style.tabtext1}>All</Text>
-                <Text style={style.tabtext}>Use Coins</Text>
-                <Text style={style.tabtext}>Earn Coins</Text>
-
-            </View>
-            <Text style={style.Divider} numberOfLines={1}>
-                ______________________________________________________________________
-            </Text>
-        </View>
+        <Tab.Navigator screenOptions={{ swipeEnabled: false, tabBarInactiveTintColor: 'black', tabBarPressColor: 'white' }} tabBarOptions={{
+            activeTintColor: "#2874f0", labelStyle: { fontSize: 14, fontWeight: 'bold' }
+        }}>
+            <Tab.Screen name="All" component={IconFlatlist} options={{ tabBarLabel: "all" }} />
+            <Tab.Screen name="Use Coins" component={IconFlatlist} options={{ tabBarLabel: "use coins" }} />
+            <Tab.Screen name="Earn Coins" component={IconFlatlist} options={{ tabBarLabel: "earn coins" }} />
+        </Tab.Navigator>
 
     )
 }

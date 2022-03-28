@@ -351,6 +351,11 @@ const style = StyleSheet.create({
         height: 30,
         width: 20,
     },
+    coin1text: {
+        fontSize: 18,
+        marginLeft: 10,
+        color: 'black',
+    },
     cointext: {
         fontSize: 16,
         fontWeight: 'bold',

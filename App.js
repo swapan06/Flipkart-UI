@@ -61,7 +61,7 @@ import GamesSlider from './GameZoneScreen/GamesSlider';
 import { gamedata } from './gamebanner';
 import GetCoinsView from './GameZoneScreen/GetCoinsView';
 import Stacknav from './ShopScreens/Stacknav';
-import Menu from './ShopScreens/Menu';
+
 
 
 const App = () => {

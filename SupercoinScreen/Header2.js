@@ -10,8 +10,8 @@ function Header() {
             <View style={{ backgroundColor: '#2874f0', }}>
                 <View style={[style.coinheader]}>
                     <View style={{ flex: 0.5, flexDirection: 'row' }}>
-                        <Image source={images?.menuIcon} style={style.coinheadermenu} />
-                        <Text style={style.cointext}>SuperCoin</Text>
+                        <Image source={images?.shopmenu} style={style.coinheadermenu} />
+                        <Text style={style.coin1text}>SuperCoin</Text>
                     </View>
                     <View style={{ flex: 0.5, flexDirection: 'row', justifyContent: 'flex-end' }}>
                         <View style={style.coinview}>

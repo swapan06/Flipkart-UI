@@ -32,13 +32,14 @@ import Firstbanner from './Flashbanner';
 import Flashbanner from './Flashbanner';
 import PopularView from './PopularView';
 
+
 function ShopWrap({ navigation }) {
     return (
         <SafeAreaView style={style.container}>
-
             <View>
-                <StatusBar barStyle='dark-content' backgroundColor={"transparent"}></StatusBar>
+                <StatusBar barStyle='light-content' backgroundColor={"#2874f0"}></StatusBar>
             </View>
+
             <ScrollView>
                 <MyHeader navigation={navigation} />
                 <Flashbanner />

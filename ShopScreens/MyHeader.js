@@ -1,16 +1,18 @@
 import React from 'react'
-import { Text, View, Image, TextInput, TouchableOpacity } from 'react-native'
+import { Text, View, Image, TextInput, TouchableOpacity, StatusBar } from 'react-native'
 import style from '../style'
 import { images } from '../images/images'
+import Menu from './Menu'
 
 
 function Header({ navigation }) {
     return (
         <>
+
             <View style={{ backgroundColor: '#2874f0', }}>
                 <View style={[style.header]}>
                     <View style={{ flex: 0.5, flexDirection: 'row' }}>
-                        <TouchableOpacity onPress={() => navigation.navigate('Menu')}>
+                        <TouchableOpacity onPress={() => navigation.navigate(Menu)}>
                             <Image source={images?.menuIcon} style={style.headermenu} />
                         </TouchableOpacity>
                         <Image source={images?.logoIcon} style={style.logo} />

@@ -3,7 +3,7 @@ import { Text, View, Image, TextInput } from 'react-native'
 import style from '../style'
 import { images } from '../images/images'
 
-function CardDeal() {
+function CardDeal({ navigation }) {
     return (
         <>
             <View style={{ flexDirection: "row" }}>
