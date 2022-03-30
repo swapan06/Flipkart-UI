@@ -1,4 +1,5 @@
 import { StyleSheet, Dimensions } from 'react-native'
+import { color } from 'react-native-reanimated';
 const { width, height } = Dimensions.get('window');
 
 const style = StyleSheet.create({
@@ -26,6 +27,14 @@ const style = StyleSheet.create({
     icon: {
         height: 20,
         width: 20,
+        marginRight: 8,
+        marginTop: 8
+    },
+    Logintext: {
+        marginTop: 8,
+        fontSize: 14,
+        color: 'white',
+        fontWeight: 'bold'
     },
     searchbar: {
         alignItems: 'center',
@@ -796,7 +805,47 @@ const style = StyleSheet.create({
         height: 25,
         width: 25,
     },
+    menulist: {
+        height: 25,
+        width: 25,
+        marginLeft: 15,
+    },
+    flattext: {
+        fontSize: 14,
+        color: 'black',
+        marginLeft: 25,
+    },
+    logtext: {
+        fontSize: 16,
+        color: 'black',
+        fontWeight: 'bold',
+        padding: 10,
+        marginTop: 15
+    },
+    log1text: {
+        fontSize: 14,
+        marginLeft: 10
+    },
+    input: {
+        height: 45,
+        margin: 12,
+        borderWidth: 2,
+        padding: 10,
+        borderRadius: 6,
+        borderColor: '#2874f0'
+    },
+    termtext: {
+        fontSize: 13,
+        marginTop: 25,
+        paddingHorizontal: 10,
+        color: '#40403f'
+    },
+    term1text: {
+        fontSize: 13,
+        paddingHorizontal: 10,
+        color: '#2874f0'
 
+    },
 
 
 

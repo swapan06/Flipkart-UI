@@ -25,9 +25,9 @@ function Footer({ navigation }) {
                     headerShown: false, tabBarIcon: ({ focused }) => (
                         <Image source={images?.supercoin} style={{ height: 20, width: 20, tintColor: focused ? '#2874f0' : '#626363' }} />)
                 }} />
-                <Tab.Screen name='SuperCoin1' component={CoinScreen} options={{
+                <Tab.Screen name='SuperCoin1' component={ShopWrap} options={{
                     headerShown: false, tabBarIcon: ({ focused }) => (
-                        <Image source={images?.home} style={{ height: 20, width: 20, tintColor: focused ? '#2874f0' : '#626363' }} />)
+                        <TouchableOpacity><Image source={images?.home} style={{ height: 20, width: 20, tintColor: focused ? '#2874f0' : '#626363' }} /></TouchableOpacity>)
                 }} />
                 <Tab.Screen name='Credit' component={Notification} options={{
                     headerShown: false, tabBarIcon: ({ focused }) => (

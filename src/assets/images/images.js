@@ -2,7 +2,7 @@ export const images = {
     menuIcon: require('./Menu.png'),
     logoIcon: require('./logo.png'),
     bellIcon: require('./bell.png'),
-    cartIcon: require('./cart.png'),
+    cartIcon: require('./Carticon.png'),
     bannerView: require('./sale.jpeg'),
     searchIcon: require('./search.png'),
     banner: require('./smallbanner.jpg'),

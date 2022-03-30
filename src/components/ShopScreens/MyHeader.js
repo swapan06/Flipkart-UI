@@ -20,13 +20,18 @@ function Header({ navigation }) {
                         </TouchableOpacity>
                         <Image source={images?.logoIcon} style={style.logo} />
                     </View>
-                    <View style={{ flex: 0.5, flexDirection: 'row', justifyContent: 'flex-end' }}>
+                    <View style={{ flex: 0.7, flexDirection: 'row', justifyContent: 'flex-end' }}>
                         <TouchableOpacity onPress={() => navigation.navigate('Notification')}  >
                             <Image source={images?.bellIcon} style={style.icon} />
                         </TouchableOpacity>
                         <TouchableOpacity onPress={() => navigation.navigate('My Cart')}  >
                             <Image source={images?.cartIcon} style={style.icon} />
                         </TouchableOpacity>
+                        <TouchableOpacity onPress={() => navigation.navigate('LogIn')}>
+                            <Text style={style.Logintext}>Log In</Text>
+                        </TouchableOpacity>
+
+
 
                     </View>
                 </View>
