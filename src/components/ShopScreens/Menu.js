@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
-import { menudata } from '../../Navigation/MenuList';
+import { menudata } from '../Flatlist/MenuList';
 import { Divider } from 'react-native-elements/dist/divider/Divider';
 // ------------------------------------Menu Container----------------------------------
 

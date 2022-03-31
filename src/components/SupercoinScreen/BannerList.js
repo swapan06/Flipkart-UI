@@ -1,8 +1,9 @@
 import React from 'react'
 import { Text, View, Image, TextInput, FlatList, } from 'react-native'
-import { coindata } from '../../Navigation/coinlist'
+import { coindata } from '../Flatlist/coinlist'
 import style from '../../style/style'
 // ----------------------------------Banner Flatlist------------------------------
+
 function BannerList() {
     return (
 

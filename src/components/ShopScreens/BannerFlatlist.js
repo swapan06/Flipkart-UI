@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, View, Image, TextInput, FlatList } from 'react-native'
 import style from '../../style/style'
-import { DATA } from '../../Navigation/banner1'
+import { DATA } from '../Flatlist/banner1'
 
 function BannerFlatlist() {
     return (

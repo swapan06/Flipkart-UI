@@ -11,8 +11,6 @@ function BannerView() {
                 <Image source={images?.banner} style={style.bannerimg} />
             </View>
         </>
-
     )
 }
-
 export default BannerView

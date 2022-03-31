@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, View, Image, TextInput, Button, FlatList } from 'react-native'
 import style from '../../style/style';
 import { images } from '../../assets/images/images';
-import { Discountdata } from '../../Navigation/Discountlist';
+import { Discountdata } from '../Flatlist/Discountlist';
 
 function DiscountView() {
     return (

@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, View, FlatList, Image, } from 'react-native'
 import ModalInjection from 'react-native/Libraries/Modal/ModalInjection'
-import { Gridimages } from '../../Navigation/Gridimages'
+import { Gridimages } from '../Flatlist/Gridimages'
 import style from '../../style/style'
 
 function GridView() {

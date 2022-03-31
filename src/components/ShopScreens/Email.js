@@ -2,9 +2,9 @@ import React from 'react'
 import { View, Text, Images, TouchableOpacity, TextInput, Button } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
-import Email from './Email'
+import LogIn from './LogIn'
 
-function LogIn({ navigation }) {
+function Email({ navigation }) {
     return (
         <>
             {/* -------------------------------LogiText--------------------------- */}
@@ -12,10 +12,10 @@ function LogIn({ navigation }) {
                 <View>
                     <Text style={style.logtext}>Log in for the best experience</Text>
                     <Text style={style.log1text}>Experience the all new Flipkart!</Text>
-                    <TextInput keyboardType='numeric' style={style.input}></TextInput>
+                    <TextInput keyboardType='email-address' style={style.input}></TextInput>
                 </View>
                 <View style={{ alignItems: "flex-end", marginHorizontal: 12 }}>
-                    <Text onPress={() => navigation.navigate(Email)} style={{ color: '#2874f0', fontWeight: 'bold' }}>Use Email-ID</Text>
+                    <Text onPress={() => navigation.navigate(LogIn)} style={{ color: '#2874f0', fontWeight: 'bold' }}>Use Phone-Number</Text>
                 </View>
                 <View>
                     <Text style={style.termtext}>By continuing, you agree to Flipkart's Terms of Use and</Text>
@@ -25,11 +25,11 @@ function LogIn({ navigation }) {
             {/* ----------------------------------Login TextInput---------------------- */}
             <View style={{ flex: 1, flexDirection: "column-reverse" }}>
                 <View style={{ margin: 11 }}>
-                    <Button title='Continue' color='#f2570f' onPress={() => navigation.goBack()} ></Button>
+                    <Button title='Continue' color='#f2570f' onPress={() => navigation.navigate('Home')} ></Button>
                 </View>
             </View>
         </>
     )
 }
 
-export default LogIn
+export default Email

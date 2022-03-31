@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, View, Image, TextInput, FlatList } from 'react-native'
 import style from '../../style/style'
-import { scrolldata } from '../../Navigation/Storieslist'
+import { scrolldata } from '../Flatlist/Storieslist'
 // ---------------------------------------Stories View using Flatlist-------------------------------
 function StoriesView() {
     return (

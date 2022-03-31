@@ -17,7 +17,7 @@ import GetCoinsView from '../../../Flipkart-UI/src/components/GameZoneScreen/Get
 import GameCards from '../../../Flipkart-UI/src/components/GameZoneScreen/GameCards';
 
 // -------------------------------Game Wrap Componnent--------------------------------
-function GameWrap() {
+function GameScreen() {
     return (
         <SafeAreaView style={style.container}>
             {/* -------------------------------Status Bar------------------------------------------ */}
@@ -30,16 +30,8 @@ function GameWrap() {
                 <GamesSlider />
                 <GetCoinsView />
                 <GameCards />
-
             </ScrollView >
-
-
-
         </SafeAreaView>
-
-
-
     )
 }
-
-export default GameWrap
+export default GameScreen

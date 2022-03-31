@@ -35,7 +35,7 @@ import GameHeader from '../Flipkart-UI/src/components/GameZoneScreen/GameHeader'
 import GamesSlider from '../Flipkart-UI/src/components/GameZoneScreen/GamesSlider';
 import { gamedata } from '../Navigation/gamebanner';
 import GetCoinsView from '../Flipkart-UI/src/components/GameZoneScreen/GetCoinsView';
-import Stacknav from '../Flipkart-UI/src/components/ShopScreens/Stacknav';
+import Stacknav from '../Flipkart-UI/src/Navigation/Stacknav';
 
 
 

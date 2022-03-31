@@ -13,11 +13,12 @@ import {
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 const Stack = createStackNavigator()
-import Footer from './Footer';
-import Notification from './Notification';
-import MyCart from './MyCart';
-import Menu from './Menu';
-import LogIn from './LogIn';
+import Footer from '../components/ShopScreens/Footer';
+import Notification from '../components/ShopScreens/Notification';
+import MyCart from '../components/ShopScreens/MyCart';
+import Menu from '../components/ShopScreens/Menu';
+import LogIn from '../components/ShopScreens/LogIn';
+import Email from '../components/ShopScreens/Email';
 // --------------------------------------------------------------Stack Naviigation-------------------------------------------
 function Stacknav() {
     return (
@@ -27,6 +28,7 @@ function Stacknav() {
             <Stack.Screen name='My Cart' component={MyCart} options={{ headerShown: true, headerStyle: { backgroundColor: '#2874f0', }, headerTitleStyle: { color: 'white', } }} />
             <Stack.Screen name='Menu' component={Menu} options={{ headerShown: false }} />
             <Stack.Screen name='LogIn' component={LogIn} options={{ headerShown: true, headerStyle: { backgroundColor: '#2874f0', }, headerTitleStyle: { color: 'white', } }} />
+            <Stack.Screen name='Email' component={Email} options={{ headerShown: true, headerStyle: { backgroundColor: '#2874f0', }, headerTitleStyle: { color: 'white', } }} />
         </Stack.Navigator>
     )
 }

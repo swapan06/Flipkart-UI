@@ -1,7 +1,7 @@
 import React from 'react'
 import { Text, View, Image, TextInput, FlatList, } from 'react-native'
 import { Divider } from 'react-native-elements/dist/divider/Divider'
-import { icondata } from '../../Navigation/Iconlist'
+import { icondata } from '../Flatlist/Iconlist'
 import style from '../../style/style'
 
 // -------------------------------------Icon Flatlist-------------------------------
