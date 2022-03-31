@@ -36,16 +36,17 @@ import GamesSlider from '../Flipkart-UI/src/components/GameZoneScreen/GamesSlide
 import { gamedata } from '../Navigation/gamebanner';
 import GetCoinsView from '../Flipkart-UI/src/components/GameZoneScreen/GetCoinsView';
 import Stacknav from '../Flipkart-UI/src/Navigation/Stacknav';
+import Route from './src/Navigation/Route';
+
 
 
 
 const App = () => {
   return (
 
-    <NavigationContainer>
-      {/* <Footer /> */}
-      <Stacknav />
-    </NavigationContainer>
+    <>
+      <Route />
+    </>
 
 
   )

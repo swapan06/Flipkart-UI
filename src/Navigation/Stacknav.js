@@ -23,12 +23,8 @@ import Email from '../components/ShopScreens/Email';
 function Stacknav() {
     return (
         <Stack.Navigator options={{ headerShown: false }}>
-            <Stack.Screen name='Home' component={Footer} options={{ headerShown: false }} />
-            <Stack.Screen name='Notification' component={Notification} options={{ headerShown: true, headerStyle: { backgroundColor: '#2874f0', }, headerTitleStyle: { color: 'white', } }} />
-            <Stack.Screen name='My Cart' component={MyCart} options={{ headerShown: true, headerStyle: { backgroundColor: '#2874f0', }, headerTitleStyle: { color: 'white', } }} />
-            <Stack.Screen name='Menu' component={Menu} options={{ headerShown: false }} />
-            <Stack.Screen name='LogIn' component={LogIn} options={{ headerShown: true, headerStyle: { backgroundColor: '#2874f0', }, headerTitleStyle: { color: 'white', } }} />
-            <Stack.Screen name='Email' component={Email} options={{ headerShown: true, headerStyle: { backgroundColor: '#2874f0', }, headerTitleStyle: { color: 'white', } }} />
+
+
         </Stack.Navigator>
     )
 }
