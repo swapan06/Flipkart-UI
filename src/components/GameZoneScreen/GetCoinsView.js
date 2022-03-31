@@ -3,7 +3,7 @@ import { View, Text, Image } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
 import { Divider } from 'react-native-elements/dist/divider/Divider'
-
+// ------------------------------------Coins View-------------------------------------
 function GetCoinsView() {
     return (
         <>
@@ -22,5 +22,4 @@ function GetCoinsView() {
         </>
     )
 }
-
 export default GetCoinsView

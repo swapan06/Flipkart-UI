@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, Image } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
-
+// ------------------------------------Earn View Cards--------------------------
 function EarnView() {
     return (
         <>
@@ -34,7 +34,6 @@ function EarnView() {
                     </View>
                 </View>
             </View>
-
         </>
     )
 }

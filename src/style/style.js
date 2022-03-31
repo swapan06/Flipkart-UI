@@ -36,6 +36,7 @@ const style = StyleSheet.create({
         color: 'white',
         fontWeight: 'bold'
     },
+    //SearchBar//
     searchbar: {
         alignItems: 'center',
         marginBottom: 10,

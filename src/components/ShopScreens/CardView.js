@@ -6,6 +6,7 @@ import { images } from '../../assets/images/images'
 function CardView() {
     return (
         <>
+            {/* ----------------------------------------Card View------------------------------ */}
             <View style={{ flexDirection: "row" }}>
                 <View style={style.cardContainer}>
                     <View style={style.textView}>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, View, Image, TextInput } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
-
+// --------------------------------------Saving View----------------------------------
 function SavingView() {
     return (
         <>

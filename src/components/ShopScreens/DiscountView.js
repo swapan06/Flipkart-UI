@@ -7,9 +7,11 @@ import { Discountdata } from '../../Navigation/Discountlist';
 function DiscountView() {
     return (
         <>
+            {/* ------------------------------------Discount View------------------------- */}
             <View style={style.imgcontainer}>
                 <Image source={images?.loot} style={style.lootView} />
             </View>
+            {/* ---------------------------------Flatlist--------------------------- */}
             <FlatList
                 data={Discountdata}
                 renderItem={(element) => {

@@ -18,8 +18,7 @@ import Notification from './Notification';
 import MyCart from './MyCart';
 import Menu from './Menu';
 import LogIn from './LogIn';
-
-
+// --------------------------------------------------------------Stack Naviigation-------------------------------------------
 function Stacknav() {
     return (
         <Stack.Navigator options={{ headerShown: false }}>

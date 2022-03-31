@@ -10,17 +10,14 @@ import Flipkart from './Flipkart'
 import Grocery from './Grocery'
 const Tab = createMaterialTopTabNavigator()
 
+// -------------------------------------Tab Navigation-------------------------------------
+
 function MyCart() {
     return (
         <Tab.Navigator screenOptions={{ swipeEnabled: false, tabBarInactiveTintColor: 'black', tabBarPressColor: 'white' }} initialRouteName="Home" tabBarOptions={{ activeTintColor: "#2874f0", labelStyle: { fontSize: 12 }, style: { backgroundColor: 'white' } }}>
             <Tab.Screen name="Flipkart" component={Flipkart} options={{ tabBarLabel: "flipkart" }} />
             <Tab.Screen name="Grocery" component={Grocery} options={{ tabBarLabel: "grocery" }} />
-
-
-
         </Tab.Navigator>
-
     )
 }
-
 export default MyCart

@@ -3,7 +3,7 @@ import style from '../../style/style'
 import { View, Text, Image, Button } from 'react-native'
 import { images } from '../../assets/images/images'
 
-
+// ----------------------------------------Notification View with Navigation--------------------------
 function Notification({ navigation }) {
 
     return (

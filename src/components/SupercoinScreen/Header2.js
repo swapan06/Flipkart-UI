@@ -3,7 +3,7 @@ import { Text, View, Image, TextInput } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
 
-
+// -------------------------------------SuperCoin Screen Header-----------------------------
 function Header2() {
     return (
         <>

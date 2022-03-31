@@ -3,7 +3,7 @@ import { View, Text, Image, FlatList } from 'react-native'
 import style from '../../style/style'
 import { gamedata } from '../../Navigation/gamebanner'
 import { images } from '../../assets/images/images'
-
+// ---------------------------------------------Game Slider Using FLATLIST---------------------------------
 function GamesSlider() {
     return (
         <>

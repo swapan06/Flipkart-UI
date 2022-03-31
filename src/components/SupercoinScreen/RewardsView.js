@@ -3,7 +3,7 @@ import { Text, View, Image } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
 
-
+// -----------------------------------Rewards Cards------------------------------------------
 function RewardsView() {
     return (
         <>

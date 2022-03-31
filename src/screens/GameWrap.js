@@ -16,14 +16,15 @@ import GamesSlider from '../../../Flipkart-UI/src/components/GameZoneScreen/Game
 import GetCoinsView from '../../../Flipkart-UI/src/components/GameZoneScreen/GetCoinsView';
 import GameCards from '../../../Flipkart-UI/src/components/GameZoneScreen/GameCards';
 
-
+// -------------------------------Game Wrap Componnent--------------------------------
 function GameWrap() {
     return (
         <SafeAreaView style={style.container}>
-
+            {/* -------------------------------Status Bar------------------------------------------ */}
             <View>
                 <StatusBar barStyle='dark-content' backgroundColor={"transparent"}></StatusBar>
             </View>
+            {/*--------------------------Component Pass------------------------------------  */}
             <ScrollView>
                 <GameHeader />
                 <GamesSlider />

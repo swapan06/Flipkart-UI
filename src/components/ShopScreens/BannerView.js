@@ -5,6 +5,7 @@ import { images } from '../../assets/images/images'
 
 function BannerView() {
     return (
+        // ----------------------------------Banner Image--------------------//
         <>
             <View style={style.bannerContainer}>
                 <Image source={images?.banner} style={style.bannerimg} />

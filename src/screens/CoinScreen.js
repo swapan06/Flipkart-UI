@@ -24,10 +24,11 @@ import RewardsView from '../../../Flipkart-UI/src/components/SupercoinScreen/Rew
 function CoinScreen() {
     return (
         <SafeAreaView style={style.container}>
-
+            {/* -------------------------------Status Bar-------------------------------- */}
             <View>
                 <StatusBar barStyle='dark-content' backgroundColor={"transparent"}></StatusBar>
             </View>
+            {/* ------------------------component Pass ----------------------- */}
             <ScrollView>
                 <Header2 />
                 <SavingView />
@@ -42,5 +43,4 @@ function CoinScreen() {
         </SafeAreaView>
     )
 }
-
 export default CoinScreen

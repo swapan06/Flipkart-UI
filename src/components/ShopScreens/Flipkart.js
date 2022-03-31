@@ -14,11 +14,8 @@ import style from '../../style/style';
 import images from '../../assets/images/flipcart.jpeg'
 
 
-
 function Flipkart({ navigation }) {
-
-
-
+    //-----------------------------------Notification View---------------------------//
     return (
         <View style={{ flex: 1, backgroundColor: '#f9f7fc', justifyContent: 'center', alignItems: "center", }}>
             <View>

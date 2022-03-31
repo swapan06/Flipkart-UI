@@ -2,14 +2,12 @@ import React from 'react'
 import { Text, View, Image, TextInput, FlatList } from 'react-native'
 import style from '../../style/style'
 import { scrolldata } from '../../Navigation/Storieslist'
-
+// ---------------------------------------Stories View using Flatlist-------------------------------
 function StoriesView() {
     return (
         <>
-
             <View style={style.container1}>
                 <Text style={style.bannertext}>Recently Viewed Stores</Text>
-
                 <FlatList
                     horizontal={true}
                     data={scrolldata}
@@ -21,16 +19,10 @@ function StoriesView() {
                                 <Text style={style.storytext}>{element.item.title}</Text>
                             </View>
                         </View>
-
                         )
-                    }
-
-                    } />
+                    }} />
             </View>
-
-
         </>
     )
 }
-
 export default StoriesView

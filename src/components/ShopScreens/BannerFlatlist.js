@@ -5,7 +5,7 @@ import { DATA } from '../../Navigation/banner1'
 
 function BannerFlatlist() {
     return (
-
+        //   ------------------------------------- Banner Flatlist-------------------------//
         <>
             <View style={style.container1}>
                 <Text style={style.bannertext}>Sponsored</Text>

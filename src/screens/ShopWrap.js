@@ -1,4 +1,3 @@
-
 import React from 'react'
 import {
     SafeAreaView,
@@ -31,14 +30,13 @@ import Footer from '../../../Flipkart-UI/src/components/ShopScreens/Footer';
 import Flashbanner from '../../../Flipkart-UI/src/components/ShopScreens/Flashbanner';
 import PopularView from '../../../Flipkart-UI/src/components/ShopScreens/PopularView';
 
-
+// --------------------------------Shop Wrap Component-------------------------------
 function ShopWrap({ navigation }) {
     return (
         <SafeAreaView style={style.container}>
             <View>
                 <StatusBar barStyle='light-content' backgroundColor={"#2874f0"}></StatusBar>
             </View>
-
             <ScrollView>
                 <MyHeader navigation={navigation} />
                 <Flashbanner />
@@ -52,14 +50,7 @@ function ShopWrap({ navigation }) {
                 <DiscountView />
                 <PopularView />
             </ScrollView >
-
-
-
         </SafeAreaView>
-
-
-
     )
 }
-
 export default ShopWrap

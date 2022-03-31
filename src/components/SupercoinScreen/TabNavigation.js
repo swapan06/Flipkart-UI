@@ -8,8 +8,7 @@ import { createMaterialTopTabNavigator } from '@react-navigation/material-top-ta
 import IconFlatlist from './IconFlatlist'
 const Tab = createMaterialTopTabNavigator()
 
-
-
+// --------------------------------------Supercoin Tab Navigation---------------------------------------
 function TabNavigation() {
     return (
         <Tab.Navigator screenOptions={{ swipeEnabled: false, tabBarInactiveTintColor: 'black', tabBarPressColor: 'white' }} tabBarOptions={{

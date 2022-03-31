@@ -6,6 +6,7 @@ import { images } from '../../assets/images/images'
 function Flashbanner() {
     return (
         <>
+            {/* -------------------------------Banner Image---------------------- */}
             <View style={style.bannerView}>
                 <Image source={images?.bannerView} style={style.bannersale} />
             </View>

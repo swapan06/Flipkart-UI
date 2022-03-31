@@ -3,8 +3,7 @@ import { View, Text, Image } from 'react-native'
 import { images } from '../../assets/images/images';
 import style from '../../style/style';
 
-
-
+// --------------------------------------------Game View Cards-----------------------------------------------
 function GameCards() {
     return (
         <>
@@ -75,9 +74,7 @@ function GameCards() {
             <View>
                 <Image style={style.winimg} source={images?.win}></Image>
             </View>
-
         </>
     )
 }
-
 export default GameCards

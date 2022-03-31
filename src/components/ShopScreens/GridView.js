@@ -8,6 +8,7 @@ function GridView() {
 
     return (
         <>
+            {/* ---------------------------Grid Images Flatlist-------------------- */}
             <View style={{ alignItems: "center" }}>
                 <FlatList
                     data={Gridimages}

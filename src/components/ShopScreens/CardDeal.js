@@ -6,6 +6,7 @@ import { images } from '../../assets/images/images'
 function CardDeal({ navigation }) {
     return (
         <>
+            {/* ------------------------------------ Card Deal-------------------------------- */}
             <View style={{ flexDirection: "row" }}>
                 <View style={style.dealContainer}>
                     <View style={style.textdView}>

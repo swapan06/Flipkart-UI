@@ -12,7 +12,7 @@ import {
 } from 'react-native';
 import style from '../../style/style';
 import { images } from '../../../../Flipkart-UI/src/assets/images/images';
-
+// --------------------------------------------Grocery View with navigation-------------------------------------
 function Grocery({ navigation }) {
     return (
         <View style={{ flex: 1, backgroundColor: '#f9f7fc', justifyContent: 'center', alignItems: "center", }}>

@@ -5,7 +5,7 @@ import { images } from '../../assets/images/images'
 import Menu from './Menu'
 
 
-
+// ----------------------------------------Header Navigation-------------------------------
 function Header({ navigation }) {
 
 
@@ -30,9 +30,7 @@ function Header({ navigation }) {
                         <TouchableOpacity onPress={() => navigation.navigate('LogIn')}>
                             <Text style={style.Logintext}>Log In</Text>
                         </TouchableOpacity>
-
-
-
+                        {/* ---------------------------------------SearchBar---------------------------------------- */}
                     </View>
                 </View>
                 <View style={style.searchbar}>

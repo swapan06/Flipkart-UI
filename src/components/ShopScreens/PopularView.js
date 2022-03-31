@@ -2,7 +2,7 @@ import React from 'react'
 import { Text, View, Image } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
-
+// ---------------------------------------Popular View Using Cards-----------------------------
 function PopularView() {
     return (
         <>
@@ -21,7 +21,6 @@ function PopularView() {
                     <Text style={style.text1}>Shop Now</Text>
                 </View>
                 <View style={style.cardContainer1}>
-
                     <Image source={images?.swings} style={style.cardImage1} />
                     <Text style={style.textv}>Swing</Text>
                     <Text style={style.text1}>Explore Now</Text>

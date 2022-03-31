@@ -2,7 +2,7 @@ import React from 'react'
 import { View, Text, Image } from 'react-native'
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
-
+// ---------------------------------------- GameZone Header-------------------------------------
 function GameHeader() {
     return (
         <>
