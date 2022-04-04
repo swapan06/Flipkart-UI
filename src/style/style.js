@@ -542,7 +542,7 @@ const style = StyleSheet.create({
         position: "absolute",
         right: 10,
     },
-    //EarnView and RewardsView//
+    //-----------------------EarnView and RewardsView-----------------//
     earnContainer: {
         borderWidth: 1,
         width: '45%',
@@ -574,9 +574,9 @@ const style = StyleSheet.create({
         fontSize: 11,
     },
 
-    //GameZoneScreen//
+    //-----------------GameZoneScreen------------------------------//
 
-    //Header//
+    //--------------------------Game-Screen -Header------------------//
     gameheader: {
         paddingHorizontal: 10,
         paddingVertical: 10,
@@ -615,7 +615,7 @@ const style = StyleSheet.create({
         backgroundColor: '#ededed'
     },
 
-    //GameSlider//
+    //----------------------------Game-Screen-Slider----------------------//
     gameContainer: {
         borderWidth: 1,
         width: width / 1.1,
@@ -700,7 +700,7 @@ const style = StyleSheet.create({
         marginLeft: 10,
 
     },
-    //GameCard//
+    //----------------------------Game-Screen-Card--------------------------//
     gamecardContainer: {
         borderWidth: 1,
         width: '45%',
@@ -789,7 +789,7 @@ const style = StyleSheet.create({
         width: width / 1.6,
 
     },
-    //menuscreen//
+    //-------------------------------MenuScreen--------------//
     Menuheader: {
         paddingHorizontal: 20,
         paddingVertical: 20,
@@ -816,6 +816,7 @@ const style = StyleSheet.create({
         color: 'black',
         marginLeft: 25,
     },
+    // ---------------------Login Screen---------------------//
     logtext: {
         fontSize: 16,
         color: 'black',
