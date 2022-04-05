@@ -16,10 +16,10 @@ function MyFlatlist() {
             return (
                 <TouchableOpacity onPress={() => click(element.item)}>
                     <Image source={element.item.uri} style={style.bannerSize} />
-                </TouchableOpacity>)
+                </TouchableOpacity>
+            )
         }
         } />
     )
 }
-
 export default MyFlatlist

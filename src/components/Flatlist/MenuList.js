@@ -83,7 +83,7 @@ export const menudata = [
     },
     {
         key: "18",
-        price: 'Legal'
+        price: 'Logout'
     },
 
 ]

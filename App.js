@@ -37,6 +37,8 @@ import { gamedata } from '../Navigation/gamebanner';
 import GetCoinsView from '../Flipkart-UI/src/components/GameZoneScreen/GetCoinsView';
 import Stacknav from '../Flipkart-UI/src/Navigation/Stacknav';
 import Route from './src/Navigation/Route';
+import store from './src/redux/store';
+import { Provider } from 'react-redux';
 
 
 
@@ -44,9 +46,11 @@ import Route from './src/Navigation/Route';
 const App = () => {
   return (
 
-    <>
+    <Provider store={store}>
       <Route />
-    </>
+    </Provider>
+
+
 
 
   )
