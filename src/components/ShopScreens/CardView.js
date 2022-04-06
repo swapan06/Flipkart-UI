@@ -34,12 +34,7 @@ function CardView() {
                 </View>
 
             </View>
-
-
-
         </>
-
     )
 }
-
 export default CardView

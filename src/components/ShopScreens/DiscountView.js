@@ -24,7 +24,6 @@ function DiscountView() {
                                 </View>
                             </View>
                             <View style={{ flexDirection: "row" }}>
-
                                 <View style={style.disContainer}>
                                     <View>
                                         <Image source={element.item.uri} style={style.disImage} />
@@ -41,18 +40,9 @@ function DiscountView() {
                                 </View>
                             </View>
                         </View>
-
                     )
-                }}
-
-
-
-            />
-
-
+                }} />
         </>
-
     )
 }
-
 export default DiscountView

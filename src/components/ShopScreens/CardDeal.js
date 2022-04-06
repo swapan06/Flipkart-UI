@@ -28,5 +28,4 @@ function CardDeal({ navigation }) {
         </>
     )
 }
-
 export default CardDeal

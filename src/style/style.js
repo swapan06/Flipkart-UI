@@ -323,11 +323,13 @@ const style = StyleSheet.create({
         margin: 6,
         borderRadius: 6,
 
+        marginBottom: 45
+
     },
     cardImage1: {
         height: width / 3.3,
         width: '100%',
-        resizeMode: 'contain',
+        resizeMode: 'cover',
         justifyContent: 'center',
         borderRadius: 6,
     },
@@ -501,6 +503,7 @@ const style = StyleSheet.create({
     nextimg1: {
         height: 25,
         width: 32,
+
     },
     //Cards//
     bgcard: {
@@ -554,7 +557,7 @@ const style = StyleSheet.create({
     EarnImage: {
         height: width / 2.25,
         width: '100%',
-        resizeMode: 'contain',
+        resizeMode: 'cover',
         borderRadius: 4,
     },
     earntext: {
@@ -759,7 +762,7 @@ const style = StyleSheet.create({
     gamecardImage: {
         height: width / 2.25,
         width: '100%',
-        resizeMode: 'contain',
+        resizeMode: 'cover',
         borderRadius: 7,
     },
     gamecardtext: {
@@ -779,9 +782,10 @@ const style = StyleSheet.create({
         fontSize: 11,
     },
     winimg: {
-        height: width / 2,
+        height: width / 2.1,
         width: '98%',
-        marginHorizontal: 5
+        marginHorizontal: 5,
+        marginVertical: 5
 
     },
     notification: {
@@ -848,6 +852,31 @@ const style = StyleSheet.create({
         color: '#2874f0'
 
     },
+    emailtext: {
+        color: '#2874f0',
+        fontWeight: 'bold'
+    },
+    flipkartcontainer: {
+        flex: 1,
+        backgroundColor: '#f9f7fc',
+        justifyContent: 'center',
+        alignItems: "center",
+    },
+    flipkartView: {
+        justifyContent: 'center',
+        alignItems: "center"
+    },
+    flipkarttext: {
+        fontSize: 18,
+        color: 'black',
+        marginBottom: 5,
+        fontWeight: 'bold'
+    },
+    flipkartbutton: {
+        marginVertical: 8,
+        padding: 8,
+    },
+
 
 
 

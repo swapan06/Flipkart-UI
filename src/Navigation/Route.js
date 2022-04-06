@@ -4,6 +4,9 @@ import React from 'react';
 import AuthStack from './AuthStack';
 import MainStack from './MainStack';
 import { useSelector } from 'react-redux';
+import { LogBox } from 'react-native';
+
+LogBox.ignoreLogs(['VirtualizedLists should never be nested']);
 const Stack = createStackNavigator();
 
 

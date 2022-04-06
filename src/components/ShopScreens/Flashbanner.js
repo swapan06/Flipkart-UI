@@ -7,8 +7,10 @@ function Flashbanner() {
     return (
         <>
             {/* -------------------------------Banner Image---------------------- */}
-            <View style={style.bannerView}>
-                <Image source={images?.bannerView} style={style.bannersale} />
+            <View style={{ flex: 1, flexDirection: 'row' }}>
+                <View style={style.bannerView}>
+                    <Image source={images?.bannerView} style={style.bannersale} />
+                </View>
             </View>
         </>
     )

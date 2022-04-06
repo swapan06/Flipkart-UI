@@ -7,7 +7,7 @@ import style from '../../style/style';
 function GameCards() {
     return (
         <>
-            <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 1, flexDirection: "row" }}>
                 <View style={style.gamecardContainer}>
                     <View style={style.textdView}>
                         <Image source={images?.leaugue} style={style.gamecardImage} />

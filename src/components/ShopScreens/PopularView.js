@@ -6,10 +6,10 @@ import { images } from '../../assets/images/images'
 function PopularView() {
     return (
         <>
-            <View>
+            <View >
                 <Text style={style.PopularText}>Popular on Flipkart</Text>
             </View>
-            <View style={{ flexDirection: "row" }}>
+            <View style={{ flex: 1, flexDirection: "row" }}>
                 <View style={style.cardContainer1}>
                     <Image source={images?.dry} style={style.cardImage1} />
                     <Text style={style.textv}>DryFruits</Text>

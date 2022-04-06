@@ -17,15 +17,15 @@ import images from '../../assets/images/flipcart.jpeg'
 function Flipkart({ navigation }) {
     //-----------------------------------Notification View---------------------------//
     return (
-        <View style={{ flex: 1, backgroundColor: '#f9f7fc', justifyContent: 'center', alignItems: "center", }}>
+        <View style={style.flipkartcontainer}>
             <View>
                 <Image source={images} style={style.notification}></Image>
             </View>
-            <View style={{ justifyContent: 'center', alignItems: "center" }}>
-                <Text style={{ fontSize: 18, color: 'black', marginBottom: 5, fontWeight: 'bold' }}>Your cart is empty!</Text>
+            <View style={style.flipkartView}>
+                <Text style={style.flipkarttext}>Your cart is empty!</Text>
                 <Text>Add items to it now.</Text>
             </View>
-            <View style={{ marginVertical: 8, padding: 8, }}>
+            <View style={style.flipkartbutton}>
                 <Button title="Shop Now" color='#2874f0' onPress={() => navigation.goBack()} />
             </View>
         </View>

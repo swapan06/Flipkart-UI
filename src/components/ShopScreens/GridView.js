@@ -6,7 +6,6 @@ import style from '../../style/style'
 
 function GridView() {
     const click = (title) => {
-
     }
     return (
         <>
@@ -24,14 +23,9 @@ function GridView() {
                             </TouchableOpacity>
                         )
                     }}
-                    numColumns={5}
-                />
-
-
+                    numColumns={5} />
             </View>
         </>
     )
 }
-
-
 export default GridView

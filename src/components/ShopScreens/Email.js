@@ -15,7 +15,7 @@ function Email({ navigation }) {
                     <TextInput keyboardType='email-address' style={style.input}></TextInput>
                 </View>
                 <View style={{ alignItems: "flex-end", marginHorizontal: 12 }}>
-                    <Text onPress={() => navigation.navigate(LogIn)} style={{ color: '#2874f0', fontWeight: 'bold' }}>Use Phone-Number</Text>
+                    <Text onPress={() => navigation.navigate(LogIn)} style={style.emailtext}>Use Phone-Number</Text>
                 </View>
                 <View>
                     <Text style={style.termtext}>By continuing, you agree to Flipkart's Terms of Use and</Text>
