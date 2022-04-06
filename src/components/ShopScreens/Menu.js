@@ -15,12 +15,68 @@ import style from '../../style/style'
 import { images } from '../../assets/images/images'
 import { menudata } from '../Flatlist/MenuList';
 import { Divider } from 'react-native-elements/dist/divider/Divider';
+import { useDispatch } from 'react-redux';
+import { Continue } from '../../redux/actions/auth';
 // ------------------------------------Menu Container----------------------------------
 
 
 function Menu({ navigation }) {
+    const dispatch = useDispatch()
     const click = (title) => {
-
+        console.log(title.key)
+        if (title.key === "18") {
+            dispatch(Continue())
+        } else if (title.key === "1") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "2") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "3") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "4") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "5") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "6") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "7") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "8") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "9") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "10") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "11") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "12") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "13") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "14") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "15") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "16") {
+            navigation.navigate('Login')
+        }
+        else if (title.key === "17") {
+            navigation.navigate('Login')
+        }
     }
     return (
         <View style={style.menucontainer}>
@@ -48,17 +104,15 @@ function Menu({ navigation }) {
                                 <TouchableOpacity onPress={() => click(element.item)}>
                                     <View style={{ flexDirection: "row", paddingVertical: 6, }}>
                                         <Image source={element.item.uri} style={style.menulist} />
-                                        <Text style={style.flattext}>{element.item.price}</Text>
+                                        <Text style={style.flattext}>{element.item.title}</Text>
                                     </View>
                                 </TouchableOpacity>
                                 <Divider />
                             </>
                         )
-                    }
-                    } />
+                    }} />
             </View>
         </View>
     )
 }
-
 export default Menu

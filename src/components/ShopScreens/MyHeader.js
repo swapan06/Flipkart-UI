@@ -3,11 +3,13 @@ import { Text, View, Image, TextInput, TouchableOpacity, StatusBar } from 'react
 import style from '../../style/style'
 import { images } from '../../assets/images/images'
 import Menu from './Menu'
+import { useDispatch } from 'react-redux'
+import { Continue } from '../../redux/actions/auth'
 
 
 // ----------------------------------------Header Navigation-------------------------------
 function Header({ navigation }) {
-
+    const dispatch = useDispatch()
 
     return (
         <>
@@ -27,7 +29,7 @@ function Header({ navigation }) {
                         <TouchableOpacity onPress={() => navigation.navigate('My Cart')}  >
                             <Image source={images?.cartIcon} style={style.icon} />
                         </TouchableOpacity>
-                        <TouchableOpacity onPress={() => navigation.navigate('LogIn')}>
+                        <TouchableOpacity onPress={() => dispatch(Continue())}>
                             <Text style={style.Logintext}>Log In</Text>
                         </TouchableOpacity>
                         {/* ---------------------------------------SearchBar---------------------------------------- */}

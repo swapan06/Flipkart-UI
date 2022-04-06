@@ -2,88 +2,88 @@ export const menudata = [
     {
         key: "1",
         uri: require('../../assets/images/plusic.png'),
-        price: 'Flipkart Plus Zone'
+        title: 'Flipkart Plus Zone'
     },
     {
         key: "2",
         uri: require('../../assets/images/catgory.png'),
-        price: 'All Categories'
+        title: 'All Categories'
     },
     {
         key: "3",
         uri: require('../../assets/images/store.png'),
-        price: 'Trending Stores'
+        title: 'Trending Stores'
     },
     {
         key: "4",
         uri: require('../../assets/images/language.png'),
-        price: 'Choose Language'
+        title: 'Choose Language'
     },
     {
         key: "5",
         uri: require('../../assets/images/offeric.png'),
-        price: 'Offer Zone'
+        title: 'Offer Zone'
     },
     {
         key: "6",
         uri: require('../../assets/images/bagers.png'),
-        price: 'Sell On Flipkart'
+        title: 'Sell On Flipkart'
     },
     {
         key: "7",
         uri: require('../../assets/images/order.png'),
-        price: 'My Orders'
+        title: 'My Orders'
     },
     {
         key: "8",
         uri: require('../../assets/images/hand.png'),
-        price: 'Refer & Earn'
+        title: 'Refer & Earn'
     },
     {
         key: "9",
         uri: require('../../assets/images/rewardsic.png'),
-        price: 'My Rewards'
+        title: 'My Rewards'
     },
     {
         key: "10",
         uri: require('../../assets/images/cartic.png'),
-        price: 'My Cart'
+        title: 'My Cart'
     },
     {
         key: "11",
         uri: require('../../assets/images/heart.png'),
-        price: 'My WishList'
+        title: 'My WishList'
     },
     {
         key: "12",
         uri: require('../../assets/images/account.png'),
-        price: 'My Account'
+        title: 'My Account'
     },
     {
         key: "13",
         uri: require('../../assets/images/bellic.png'),
-        price: 'My Notification'
+        title: 'My Notification'
     },
     {
         key: "14",
         uri: require('../../assets/images/chat.png'),
-        price: ' My Chats'
+        title: ' My Chats'
     },
     {
         key: "15",
-        price: 'Notification Prefernces'
+        title: 'Notification Prefernces'
     },
     {
         key: "16",
-        price: 'Help Center'
+        title: 'Help Center'
     },
     {
         key: "17",
-        price: 'Privacy Policy'
+        title: 'Privacy Policy'
     },
     {
         key: "18",
-        price: 'Logout'
+        title: 'Logout'
     },
 
 ]

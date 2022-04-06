@@ -5,7 +5,7 @@ import { images } from '../../assets/images/images'
 import Email from './Email'
 import PhoneInput from "react-native-phone-number-input"
 import { useDispatch } from 'react-redux'
-import { Continue } from '../../redux/actions'
+import { logoutContinue } from '../../redux/actions/auth'
 
 
 
@@ -38,7 +38,7 @@ function LogIn({ navigation }) {
             {/* ----------------------------------Continue Button----------------------- */}
             <View style={{ flex: 1, flexDirection: "column-reverse" }}>
                 <View style={{ margin: 11 }}>
-                    <Button title='Continue' color='#f2570f' onPress={() => dispatch(Continue())} ></Button>
+                    <Button title='Continue' color='#f2570f' onPress={() => dispatch(logoutContinue())} ></Button>
                 </View>
             </View>
         </>

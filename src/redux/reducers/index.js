@@ -1,10 +1,9 @@
-import React from "react";
-import home from "./home";
+import userStatus from './auth'
 import { combineReducers } from 'redux'
 
 const rootReducers = combineReducers(
     {
-        home
+        userStatus
     }
 )
 export default rootReducers

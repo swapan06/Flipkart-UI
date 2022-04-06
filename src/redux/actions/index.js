@@ -1,5 +1,6 @@
-export const Continue = () => {
-    return {
-        type: "login"
-    }
-}
+import * as auth from './auth';
+
+export default {
+    ...auth,
+
+};
