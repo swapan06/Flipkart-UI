@@ -137,7 +137,7 @@ const style = StyleSheet.create({
         fontWeight: 'bold',
         color: '#000',
         textAlign: 'left',
-        backgroundColor: "#f5f5f",
+        backgroundColor: "#f5f5f5",
         marginHorizontal: 2,
 
     },
@@ -793,6 +793,20 @@ const style = StyleSheet.create({
         width: width / 1.6,
 
     },
+    note: {
+        height: 20,
+        width: 20,
+    },
+    notetext: {
+        fontSize: 14,
+        color: 'black'
+    },
+    Helptext: {
+        fontSize: 14,
+        color: 'black',
+        fontWeight: 'bold'
+    },
+
     //-------------------------------MenuScreen--------------//
     Menuheader: {
         paddingHorizontal: 20,
@@ -876,13 +890,6 @@ const style = StyleSheet.create({
         marginVertical: 8,
         padding: 8,
     },
-
-
-
-
-
-
-
 })
 
 

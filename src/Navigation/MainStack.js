@@ -7,7 +7,7 @@ export default function (Stack) {
     return (
         <>
             <Stack.Screen
-                name="Home"
+                name="HomeData"
                 component={HomeStack}
                 options={{ headerShown: false }}
             />

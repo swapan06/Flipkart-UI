@@ -23,10 +23,7 @@ import Email from '../components/ShopScreens/Email';
 function Stacknav() {
     return (
         <Stack.Navigator options={{ headerShown: false }}>
-
-
         </Stack.Navigator>
     )
 }
-
 export default Stacknav;

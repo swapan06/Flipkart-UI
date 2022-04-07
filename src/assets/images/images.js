@@ -51,7 +51,8 @@ export const images = {
     chat: require('./chat.png'),
     tabgrocery: require('./tabgrocery.jpeg'),
     icons: require('./icons.png'),
-    shopmenu: require('./shopmenu.png')
+    shopmenu: require('./shopmenu.png'),
+    notepad: require('./notepad.png')
 
 
 

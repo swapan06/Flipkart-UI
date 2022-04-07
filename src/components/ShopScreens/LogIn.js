@@ -44,5 +44,4 @@ function LogIn({ navigation }) {
         </>
     )
 }
-
 export default LogIn

@@ -74,6 +74,20 @@ function GameCards() {
             <View>
                 <Image style={style.winimg} source={images?.win}></Image>
             </View>
+            <View style={{ flex: 1, flexDirection: 'row' }}>
+                <View style={{ marginHorizontal: 15, marginVertical: 10 }}>
+                    <Text style={style.notetext}><Image style={style.note} source={images?.notepad}></Image>Tell us how to improve.</Text>
+                </View>
+            </View>
+            <View style={{ flex: 1, flexDirection: 'row', backgroundColor: '#f0efeb', marginHorizontal: 15, borderRadius: 6, paddingVertical: 3, marginBottom: 5 }}>
+                <View style={{ marginHorizontal: 15, marginVertical: 10 }} >
+                    <Text style={style.Helptext}>Help us serve you better!</Text>
+                    <Text style={{ marginTop: 22 }}>6 Questions 1 Minute</Text>
+                </View>
+                <View>
+                    <Text style={{ color: "black", paddingHorizontal: 25, marginTop: 50 }}>Take Survey Now</Text>
+                </View>
+            </View>
         </>
     )
 }

@@ -26,9 +26,9 @@ import CardDeal from '../components/ShopScreens/CardDeal';
 import BannerFlatlist from '../components/ShopScreens/BannerFlatlist';
 import StoriesView from '../components/ShopScreens/StoriesView';
 import DiscountView from '../components/ShopScreens/DiscountView';
-import Footer from '../components/ShopScreens/Footer';
 import Flashbanner from '../components/ShopScreens/Flashbanner';
 import PopularView from '../components/ShopScreens/PopularView';
+
 
 // --------------------------------Shop Wrap Component-------------------------------
 function ShopScreen({ navigation }) {
